@@ -3,7 +3,7 @@ const express = require('express');
 const blogEndpoints = express();
 
 blogEndpoints.get('/', function(req, res) {
-  
+  console.log(req);
 });
 
 blogEndpoints.get('/:blogId', function(req, res) {
